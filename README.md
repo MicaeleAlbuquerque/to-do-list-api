@@ -41,7 +41,7 @@ O servidor estará rodando em: http://localhost:3000
 
 📋 Endpoints da APIA API expõe quatro endpoints principais para gerenciar as tarefas. 
 
-|Método |HTTP |Endpoint |Descrição |Corpo da Requisição (Body) |Resposta de Sucesso |
+|Método HTTP | Endpoint |Descrição |Corpo da Requisição (Body) |Resposta de Sucesso |
 |--- |--- |--- |--- |--- |--- |
 |GET |/tarefas |Retorna todas as tarefas (mockadas e adicionadas). |N/A |200 OK + Array de Tarefas|
 |POST |/tarefas |Cria e adiciona uma nova tarefa à lista. |{ "texto": "Nova tarefa a fazer" } |201 Created + Objeto da Nova Tarefa|
