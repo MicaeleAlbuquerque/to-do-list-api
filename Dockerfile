@@ -2,10 +2,10 @@
 FROM node:18
 
 # Labels de metadados
-LABEL maintainer="Micaele Albuquerquer <Micaele.albuquerque05@outlook.com>" \
+LABEL maintainer="Micaele Albuquerque <Micaele.albuquerque05@outlook.com>" \
       version="1.0" \
       description="API para Projeto to-do-list-react." \
-      created_by="Micaele Albuquerquer"
+      created_by="Micaele Albuquerque"
 
 # Define o diretório de trabalho dentro do container
 WORKDIR /app
